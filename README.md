@@ -15,3 +15,14 @@ Model:
 - https://gist.github.com/urigoren/b7cd138903fe86ec027e715d493451b4
 などを参考にしたが精度は上がらず
 
+トレーニング例
+
+![image](https://github.com/basic0908/EEG_Classifier_LSTM/assets/100826336/f6d7d00c-c8b0-4691-87d7-547aa4709be7)
+![image](https://github.com/basic0908/EEG_Classifier_LSTM/assets/100826336/aca3cc84-4853-4817-87a4-251d83a91145)
+
+Accuracyにそれほど向上が見えない、Confusion Matrixが散らばっているので
+
+- ノイズ
+- 有意性のないデータ
+- モデルのアーキテクチャ
+などが考えられる
